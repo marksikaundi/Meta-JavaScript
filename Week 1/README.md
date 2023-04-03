@@ -15,3 +15,5 @@ In this module, you are introduced to JavaScript. You'll learn why JavaScript is
 - What do you hope to learn?
 - How to position yourself for a new career
 - How to Uncover job opportunities
+
+[CODE CHALLENGE👉](https://github.com/marksikaundi/Meta-JavaScript/tree/main/Week%201/Challenges)
