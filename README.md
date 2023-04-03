@@ -3,8 +3,7 @@
 
 In this course, you will explore the following:
 
-### Module 1: Introduction to JavaScript
-
+[↘️Module 1: Introduction to JavaScript](https://github.com/marksikaundi/Meta-JavaScript/tree/main/Week%201)
 In this module, you are introduced to JavaScript. You'll learn why JavaScript is so integral to software development. And you'll get an overview of how to write JavaScript code inside the browser. Furthermore, you will learn about the most common operators as well as conditional statements and loops.
 
 After completing this module, you will be able to:
