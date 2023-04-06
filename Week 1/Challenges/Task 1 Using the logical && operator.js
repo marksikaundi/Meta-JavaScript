@@ -8,3 +8,6 @@
 
 var score = 8;
 console.log("Mid-level skills: " && "Mid-level skills:")
+
+// var score = 8;
+// console.log("Mid-level skills:", score > 0 && score < 10)

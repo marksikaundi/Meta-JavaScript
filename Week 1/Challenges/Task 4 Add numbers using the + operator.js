@@ -8,3 +8,5 @@ console.log(sum1)
 var sum1 = 5;
 var sum2 = 10;
 console.log(sum1 + sum2)
+
+// console.log(5 + 10); // 15
