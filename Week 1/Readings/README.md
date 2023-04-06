@@ -31,3 +31,17 @@ Let's say you're tasked with coming up with some code that will check if the cur
 
 Here's a solution: 
 `console.log(currentTime > 9 && currentTime < 17);`
+
+How does this code work?
+
+First, on line one, I set the currentTime variable, and assign the value of 10 to it.
+
+Next, on line two I console log two comparisons: 
+
+currentTime > 9 
+
+currentTime < 17
+
+I also use the && logical operator to join the two comparisons.
+
+Effectively, my code is interpretted as the following:
