@@ -1,7 +1,7 @@
 ### Introduction
 In this exercise, you will practice working with if else statements. By the end of this exercise, you will be able to write an if else statement that determines your source of income based on your age. You will also be able to write a switch statement that determines your evening routine based on the day of the week.
 
-Complete the following steps to create: Are You Old Enough? 
+#### Complete the following steps to create: Are You Old Enough? 
 Declare a variable age using the var keyword and set it to the number 10.
 
 Add an if statement that checks if the value of the age variable is greater than or equal to the number 65. Inside the if block, console.log the sentence: "You get your income from your pension".
@@ -14,7 +14,7 @@ Add an "else" statement to capture any other value. Inside the block, type "cons
 
 Try adjusting the age and executing the program to see how it will affect the output.
 
-Code the days of the week program as a switch statement
+#### Code the days of the week program as a switch statement
 On the next line, define a new variable, name it day, and set its value to "Sunday".
 
 Start coding a switch statement, passing the day variable as the expression to evaluate.
