@@ -33,4 +33,4 @@ Finally, update the console.log calls for each case, based on whatever activity 
 - Don't forget to add a break at the very end of each case in a switch statement.
 
 **Note: You can find solutions in a separate reading (following this one)**
-[SOLUTIONS 👉↘️]()
+[SOLUTIONS 👉↘️](https://github.com/marksikaundi/Meta-JavaScript/blob/main/Week%201/Challenges/Practice%20conditional%20statements.js)
