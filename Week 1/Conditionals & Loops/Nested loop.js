@@ -5,6 +5,14 @@ for (var i = 1; i <= 2; i++) {
   }
 }
 
-for (var year = 2023; year < 2035; year++) {
+for (var year = 2023; year < 2025; year++) {
   console.log(year);
+}
+
+//ADDED NESTED LOOP
+for (var year = 2023; year < 2025; year++) {
+  console.log(year);
+  for (var month = 6; month < 9; month++) {
+    console.log("------", month);
+  }
 }
