@@ -20,13 +20,13 @@ After completing this module, you will be able to:
 
       
 
-### Module 2: The building blocks of a program
+[↘️Module 2: The building blocks of a program](https://github.com/marksikaundi/Meta-JavaScript/tree/main/Week%202)
 
 Here you'll learn how to use objects, arrays and functions. In addition, you will learn about the most common built-in methods, and the difference between undefined, null and empty strings. And you'll explore both error handling and defensive programming.
 
 After completing this module, you will be able to:
 
-1. Build and use objects, arrays, and functions
+1. [Build and use objects, arrays, and functions](https://github.com/marksikaundi/Meta-JavaScript/tree/main/Week%202/Array%2C%20objects%20%26%20function)
 
 2. List some common built-in methods on built-in objects
 
