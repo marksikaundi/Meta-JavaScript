@@ -9,3 +9,8 @@ var rounded = Math.ceil(1.5);
 var rounded = Math.ceil(2.99);
 
 console.log(rounded);
+
+//tring
+var myNum = Math.ceil(2.49);
+
+console.log(myNum);
