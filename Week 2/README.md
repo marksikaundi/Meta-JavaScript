@@ -11,6 +11,7 @@ Explain the difference between undefined, null, and empty strings
 Demonstrate how to write basic code using arrays, objects, and functions
 
 #### Exercise: Error prevention
+
 Instructions
 Task 1: Code a function declaration
 You need to code a function declaration named addTwoNums, which accepts numbers a and b and console logs a + b.
@@ -30,7 +31,7 @@ if the typeof the a parameter is not equal to 'number', throw a new ReferenceErr
 
 else if the typeof the b parameter is not equal to 'number', throw a new ReferenceError. Inside the ReferenceError, pass a custom error message of 'the second argument is not a number'.
 
-else, console log a + b  
+else, console log a + b
 
 Once you've completed this task, all the code inside the try block will be inside these conditional statements.
 
@@ -42,3 +43,23 @@ Invoke the addTwoNums function using 5 and "5" as arguments.
 
 Task 7: Add another console log under the addTwoNums function invocation
 Add another line of code that console logs the string "It still works".
+
+#### Additional resources
+
+Here is a list of resources that may be helpful as you continue your learning journey.
+
+[MDN functions ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)
+
+[MDN try...catch ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+
+[Iteration protocols ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)
+
+[The Math object on MDN ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+[The String object on MDN ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+[MDN JavaScript error reference ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
+
+[The null value on MDN ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
+
+[The undefined property on MDN ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
