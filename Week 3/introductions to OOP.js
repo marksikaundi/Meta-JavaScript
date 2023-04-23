@@ -41,3 +41,22 @@ const door = {
     }
 }
 
+//At this point, one can conclude that the exact same name of the method can have the exact opposite intent, based on what object it is used for.
+//Now, to make this code truly polymorphic, I will add another function declaration:
+function ringTheBell(thing) {
+    console.log(thing.bell())
+}
+
+// Now I have declared a ringTheBell() function. It accepts a thing parameter - which I expect to be an object, namely, either the bicycle object or the door object.
+
+// So now, if I call the ringTheBell() function and pass it the bicycle as its single argument, here's the output:
+ringTheBell(bicycle); // Ring, ring! Watch out, please!
+
+
+
+
+
+
+
+
+
