@@ -71,8 +71,15 @@ A door has a bell. It could be said that the bell is a property of the door obje
 Now consider a bell on a bicycle. A bicycle has a bell. It could be said that the bell is a property of the bicycle object. This bell could also be rung. However, the reason, the intention, and the result of somebody ringing the bell on a bicycle is not the same as ringing the bell on a door.
 
 The above concepts can be coded in JavaScript as follows:
+ 
 
 
+
+ The Penguin and Eagle sub-classes both inherit from the Bird super-class. The Eagle sub-class inherits the useWings() method from the Bird class, but extends it with an additional console log. The Penguin sub-class doesn't inherit the useWings() class - instead, it has its own implementation, although the Penguin class itself does extend the Bird class.  
+
+
+  Do some practice with the above code, trycreating some of your own classes.  (hint : think about things you know from everyday life)
+`////`
 
 
 
