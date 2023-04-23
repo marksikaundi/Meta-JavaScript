@@ -28,6 +28,16 @@ class Eagle extends Bird { /* ...class code here... */ }
 "abc".toUpperCase();
 
 
+//So, to understand what polymorphism is about, let's consider some real-life objects.
 
-
+const bicycle = {
+    bell: function() {
+        return "Ring, ring! Watch out, please!"
+    }
+}
+const door = {
+    bell: function() {
+        return "Ring, ring! Come here, please!"
+    }
+}
 
