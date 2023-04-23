@@ -21,6 +21,13 @@ class Animal { /* ...class code here... */ }
 class Bird extends Animal { /* ...class code here... */ }
 class Eagle extends Bird { /* ...class code here... */ }
 
+// OOP Principles: Encapsulation
+// In the simplest terms, encapsulation has to do with making a code implementation "hidden" from other users, in the sense that they don't have to know how my code works in order to "consume" the code.
+
+// For example, when I run the following code:
+"abc".toUpperCase();
+
+
 
 
 
