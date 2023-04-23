@@ -50,34 +50,34 @@ console.log(virtualPet.sleepy); // true
 virtualPet.nap();
 console.log(virtualPet.sleepy); // false
 
-In OOP, methods update properties stored in the object instead of generating new return values.
+// In OOP, methods update properties stored in the object instead of generating new return values.
 
-For example, if I check the sleepy property on the virtualPet object, I can confirm that it's set to true.
+// For example, if I check the sleepy property on the virtualPet object, I can confirm that it's set to true.
 
-However, once I've ran the nap() method on the virtualPet object, will the sleepy property's value change?
+// However, once I've ran the nap() method on the virtualPet object, will the sleepy property's value change?
 
-10
+10;
 //creating an object
 var virtualPet = {
-    sleepy: true,
-    nap: function() {
-        this.sleepy = false
-    }
-}
-console.log(virtualPet.sleepy) // true
-virtualPet.nap()
-console.log(virtualPet.sleepy) // false
+  sleepy: true,
+  nap: function () {
+    this.sleepy = false;
+  },
+};
+console.log(virtualPet.sleepy); // true
+virtualPet.nap();
+console.log(virtualPet.sleepy); // false
 // OOP helps us model real-life objects. It works best when the grouping of properties and data in an object makes logical sense - meaning, the properties and methods "belong together".
 //creating an object
 var virtualPet = {
-    sleepy: true,
-    nap: function() {
-        this.sleepy = false
-    }
-}
-console.log(virtualPet.sleepy) // true
-virtualPet.nap()
-console.log(virtualPet.sleepy) // false
+  sleepy: true,
+  nap: function () {
+    this.sleepy = false;
+  },
+};
+console.log(virtualPet.sleepy); // true
+virtualPet.nap();
+console.log(virtualPet.sleepy); // false
 // Note that the goal here is not to discuss OOP in depth; instead, I just want to show you the simplest explanation of what it is and how it works, in order to make the single most important distinction between FP and OOP.
 
 // To summarize this point, we can say that the Functional Programming paradigm works by keeping the data and functionality separate. It's counterpart, OOP, works by keeping the data and functionality grouped in meaningful objects.
@@ -112,25 +112,27 @@ console.log(virtualPet.sleepy) // false
 // To explain how this works, consider the following program.
 
 function addTwoNums(a, b) {
-    console.log(a + b)
+  console.log(a + b);
 }
 
 function randomNum() {
-    return Math.floor((Math.random() * 10) + 1);
+  return Math.floor(Math.random() * 10 + 1);
 }
-function specificNum() { return 42 };
+function specificNum() {
+  return 42;
+}
 
 var useRandom = true;
 
 var getNumber;
 
-if(useRandom) {
-    getNumber = randomNum
+if (useRandom) {
+  getNumber = randomNum;
 } else {
-    getNumber = specificNum
+  getNumber = specificNum;
 }
 
-addTwoNums(getNumber(), getNumber())
+addTwoNums(getNumber(), getNumber());
 
 // I start the program with the addTwoNums() function whose definition I've already used earlier in various variations. The reason why this function is a recurring example is because it's so simple that it helps explain concepts that otherwise might be a bit harder to grasp.
 
@@ -162,12 +164,11 @@ addTwoNums(getNumber(), getNumber())
 
 // It returns functions when invoked
 
-
 // There's no "special way" of defining higher-order functions in JavaScript. It is simply a feature of the language. The language itself allows me to pass a function to another function, or to return a function from another function.
 
 // Continuing from the previous section, consider the following code, in which I'm re-defining the addTwoNums() function so that it is a higher-order function:
 function addTwoNums(getNumber1, getNumber2) {
-    console.log(getNumber1() + getNumber2());
+  console.log(getNumber1() + getNumber2());
 }
 
 // You can think of the above function declaration of addTwoNums as describing how it will deal with the getNumber1 and getNumber2 inputs: once it receives them as arguments, it will then attempt invoking them and concatenating the values returned from those invocations.
@@ -183,26 +184,19 @@ addTwoNums(specificNum, randomNum); // returned number is 42 + some random numbe
 
 // An example of a pure function is the addTwoNums() function from the previous section:
 function addTwoNums(a, b) {
-    console.log(a + b)
+  console.log(a + b);
 }
 
 // Another rule for a function to be considered pure is that it should not have side-effects. A side-effect is any instance where a function makes a change outside of itself.
 
-// This includes: 
+// This includes:
 
-// changing variable values outside of the function itself, or even relying on outside variables 
+// changing variable values outside of the function itself, or even relying on outside variables
 
-// calling a Browser API (even the console itself!) 
+// calling a Browser API (even the console itself!)
 
 // calling Math.random() - since the value cannot be reliably repeated
 
 // The topic of pure and impure functions can get somewhat complex.
 
 // For now, it's sufficient to know that this concept exists and that it is related to functional programming.
-
-
-
-
-
-
-
