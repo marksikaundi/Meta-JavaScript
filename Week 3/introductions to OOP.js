@@ -15,3 +15,12 @@ class Animal {
 var myDog = new Animal();
 
 console.log(Animal);
+
+//Here's an example of an inheritance hierarchy in JavaScript:
+class Animal { /* ...class code here... */ }
+class Bird extends Animal { /* ...class code here... */ }
+class Eagle extends Bird { /* ...class code here... */ }
+
+
+
+
