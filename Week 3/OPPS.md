@@ -80,7 +80,28 @@ The above concepts can be coded in JavaScript as follows:
 
   Do some practice with the above code, trycreating some of your own classes.  (hint : think about things you know from everyday life)
 `////`
-
+`
+class Bird {
+    useWings() {
+        console.log("Flying!")
+    }
+}
+class Eagle extends Bird {
+    useWings() {
+        super.useWings()
+        console.log("Barely flapping!")
+    }
+}
+class Penguin extends Bird {
+    useWings() {
+        console.log("Diving!")
+    }
+}
+var baldEagle = new Eagle();
+var kingPenguin = new Penguin();
+baldEagle.useWings(); // "Flying! Barely flapping!"
+kingPenguin.useWings(); // "Diving!"
+`
 
 
 
