@@ -19,7 +19,7 @@ kiwiIcecream; // --> Icecream {flavor: 'kiwi', meltIt: ƒ}
 appleIcecream; // --> Icecream {flavor: 'apple', meltIt: ƒ}
 
 
-
+//construct example more to be added
 
 
 
