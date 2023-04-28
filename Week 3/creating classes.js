@@ -17,3 +17,22 @@ class Train {
     console.log(proto);
   }
 }
+
+// class HighSpeedTrain extends Train {
+  constructor(passengers, highSpeedOn, color, lightsOn) {
+    super(color, lightsOn);
+    this.passengers = passengers;
+    this.highSpeedOn = highSpeedOn;
+}
+
+toggleHighSpeed() {
+    this.highSpeedOn = !this.highSpeedOn;
+    console.log('High speed status:', this.highSpeedOn);
+}
+
+toggleLights() {
+    super.toggleLigths();
+    super.lightsStatus();
+    console.log('Lights are 100% operational.');
+}
+
