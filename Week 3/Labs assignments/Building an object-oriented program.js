@@ -11,3 +11,8 @@ class Person {
     this.energy -= 10;
   }
 }
+
+//Task 2 Code a Worker class
+class Worker extends Person {
+    
+}
