@@ -29,3 +29,17 @@ class Worker extends Person {
     this.xp += 10;
   }
 }
+
+//Task 3: Code an intern object, run methods
+function intern() {
+  var intern = new Worker(0, 10, "Bob", 21, 110);
+  intern.gotToWork();
+  return intern;
+}
+
+//Task 4: Code a manager object, methods
+function manager() {
+  var manager = new Worker(100, 30, "Alice", 30, 120);
+  manager.doSomethingFun();
+  return manager;
+}
