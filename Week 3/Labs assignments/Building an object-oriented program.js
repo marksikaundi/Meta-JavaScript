@@ -36,3 +36,10 @@ function intern() {
   worker.gotToWork();
   return Worker;
 }
+
+//Task 4: Code a manager object, methods
+function manager() {
+  var manager = new Worker(100, 30, "Alice", 30, 120);
+  manager.doSomethingFun();
+  return manager;
+}
