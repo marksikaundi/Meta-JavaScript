@@ -14,5 +14,18 @@ class Person {
 
 //Task 2 Code a Worker class
 class Worker extends Person {
-    
+  constructor(xp = 0, hourlyWage = 10, name, age, energy) {
+    super(name, age, energy);
+    this.xp = xp;
+    this.hourlyWage = hourlyWage;
+  }
+  sleep() {
+    super.sleep();
+  }
+  doSomethingFun() {
+    super.doSomethingFun;
+  }
+  gotToWork() {
+    this.xp += 10;
+  }
 }
