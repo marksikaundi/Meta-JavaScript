@@ -127,6 +127,29 @@ class Animal {
 }
 //Each animal object, no matter which one it is, will share the properties of color and energy.
 
+//Now I can code the Cat and Bird classes:
+class Cat extends Animal {
+    constructor(sound = 'purr', canJumpHigh = true, canClimbTrees = true, color, energy) {
+        super(color, energy);
+        this.sound = sound;
+        this.canClimbTrees = canClimbTrees;
+        this.canJumpHigh = canJumpHigh;
+    }
+    makeSound() {
+        console.log(this.sound);
+    }
+}
+
+class Bird extends Animal {
+    constructor(sound = 'chirp', canFly = true, color, energy) {
+        super(color, energy);
+        this.sound = sound;
+        this.canFly = canFly;
+    }
+    makeSound() {
+        console.log(this.sound);
+    }
+}
 
 
 
