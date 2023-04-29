@@ -35,4 +35,3 @@ class Train {
 //     super.lightsStatus();
 //     console.log('Lights are 100% operational.');
 // }
-
