@@ -215,28 +215,25 @@ class Parrot extends Bird {
   }
 }
 
+// Now that we've set up this entire inheritance structure, we can build various animal objects.
 
+// For example, I can build two parrots: one that can talk, and the other that can't.
+var polly = new Parrot(true); // we're passing `true` to the constructor so that polly can talk
+var fiji = new Parrot(false); // we're passing `false` to the constructor so that fiji can't talk
 
+polly.makeSound(); // 'chirp', 'I'm a talking parrot!'
+fiji.makeSound(); // 'chirp'
 
+polly.color; // yellow
+polly.energy; // 100
 
+polly.isActive(); // Energy is decreasing, currently at: 80
 
+var penguin = new Bird("shriek", false, "black and white", 200); // setting all the custom properties
+penguin; // Bird {color: 'black and white', energy: 200, sound: 'shriek', canFly: false }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+penguin.sound; // 'shriek'
+penguin.canFly; // false
+penguin.color; // 'black and white'
+penguin.energy; // 200
+penguin.isActive(); // Energy is decreasing, currently at: 180
