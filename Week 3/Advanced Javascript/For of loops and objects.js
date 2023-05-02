@@ -39,25 +39,25 @@ const car3 = {
 };
 console.log(Object.values(car3)); // [300, 'yellow']
 
+// The Object.entries() method
+// Finally, there's another useful method, Object.entries(), which returns an array listing both the keys and the values.
+const car4 = {
+  speed: 40,
+  color: "magenta",
+};
+console.log(Object.entries(car4));
 
+// Examples
+// You now have all the ingredients that you need to loop over any object's own property keys and values.
 
+// Here's a very simple example of doing just that:
+var clothingItem = {
+  price: 50,
+  color: "beige",
+  material: "cotton",
+  season: "autumn",
+};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for (key of Object.keys(clothingItem)) {
+  console.log(keys, ":", clothingItem[key]);
+}
