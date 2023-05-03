@@ -55,3 +55,23 @@ nums.filter(function (num) {
 [0, 10, 20, 30, 40, 50].map(function (num) {
   return num / 10;
 });
+// As already discussed, choosing a proper data structure affects the very code that you can write. This is because the data structure itself comes with some built-in functionality that makes it easier to perform certain tasks or makes it harder or even impossible without converting your code to a proper data structure.
+
+// Now that you've covered the methods, let's explore how to work with different built-in data structures in JavaScript.
+
+// Working with Objects in JavaScript
+// A lot of the information on how to work with objects in JavaScript has already been covered in this course.
+
+// The example below demonstrates how to use the object data structure to complete a specific task. This task is to convert an object to an array:
+const result = [];
+const drone = {
+    speed: 100,
+    color: 'yellow'
+}
+const droneKeys = Object.keys(drone);
+droneKeys.forEach( function(key) {
+    result.push(key, drone[key])
+})
+console.log(result)
+
+//More practical aspects to data structure in js
