@@ -1,4 +1,4 @@
-## Course syllabus
+## Course syllabus for JS
 **This course is the second of a series that aims to help you learn more about web development.**
 
 In this course, you will explore the following:
