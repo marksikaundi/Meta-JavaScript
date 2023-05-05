@@ -1,4 +1,4 @@
-#### Additional resources
+#### Additional resources For Advanced JS
 
 Here is a list of resources that may be helpful as you continue your learning journey.
 
